@@ -121,7 +121,6 @@ fi
 AX_C_CHECK_FLAG([-pedantic],[],[],[CFLAGS="$CFLAGS -pedantic"],[])
 AX_C_CHECK_FLAG([-flto],[],[],[CFLAGS="$CFLAGS -flto"],[])
 AX_C_CHECK_FLAG([-fvisibility=hidden],[],[],[CFLAGS="$CFLAGS -fvisibility=hidden"],[])
-AX_C_CHECK_FLAG([-Werror],[],[],[CFLAGS="$CFLAGS -Werror"],[])
 AX_C_CHECK_FLAG([-Wall],[],[],[CFLAGS="$CFLAGS -Wall"],[])
 AX_C_CHECK_FLAG([-Wextra],[],[],[CFLAGS="$CFLAGS -Wextra"],[])
 AX_C_CHECK_FLAG([-Wcast-qual],[],[],[CFLAGS="$CFLAGS -Wcast-qual"],[])

@@ -1,3 +1,6 @@
+TEST by PAUL
+
+
 **What It Does**
 
 The eventlircd daemon provides four functions for [LIRC](http://www.lirc.org) devices:
